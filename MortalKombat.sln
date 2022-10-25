@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MortalKombat", "MortalKombat\MortalKombat.csproj", "{67492D79-91B5-446A-9AA7-E6795E50F24D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Characters", "Characters\Characters.csproj", "{343F7B83-A64A-45EC-B68A-BDEEC648004D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainMenu", "MainMenu\MainMenu.csproj", "{261D28A8-86D3-4A59-BE9B-BFAF6F6E508B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fighters", "Fighters\Fighters.csproj", "{1099093F-51F0-450F-9CF6-9D812E8057FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mages", "Mages\Mages.csproj", "{CC6210C7-AADF-473C-9C8C-1A5CBE120FCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warriors", "Warriors\Warriors.csproj", "{9FC05578-ADC1-4BE9-A027-2361F67E93DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arena", "Arena\Arena.csproj", "{317661ED-CB34-4D1D-A728-F03A2D0FE2CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67492D79-91B5-446A-9AA7-E6795E50F24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67492D79-91B5-446A-9AA7-E6795E50F24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67492D79-91B5-446A-9AA7-E6795E50F24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67492D79-91B5-446A-9AA7-E6795E50F24D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343F7B83-A64A-45EC-B68A-BDEEC648004D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343F7B83-A64A-45EC-B68A-BDEEC648004D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343F7B83-A64A-45EC-B68A-BDEEC648004D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343F7B83-A64A-45EC-B68A-BDEEC648004D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261D28A8-86D3-4A59-BE9B-BFAF6F6E508B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261D28A8-86D3-4A59-BE9B-BFAF6F6E508B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261D28A8-86D3-4A59-BE9B-BFAF6F6E508B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261D28A8-86D3-4A59-BE9B-BFAF6F6E508B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1099093F-51F0-450F-9CF6-9D812E8057FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1099093F-51F0-450F-9CF6-9D812E8057FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1099093F-51F0-450F-9CF6-9D812E8057FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1099093F-51F0-450F-9CF6-9D812E8057FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6210C7-AADF-473C-9C8C-1A5CBE120FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6210C7-AADF-473C-9C8C-1A5CBE120FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6210C7-AADF-473C-9C8C-1A5CBE120FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6210C7-AADF-473C-9C8C-1A5CBE120FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC05578-ADC1-4BE9-A027-2361F67E93DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC05578-ADC1-4BE9-A027-2361F67E93DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC05578-ADC1-4BE9-A027-2361F67E93DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC05578-ADC1-4BE9-A027-2361F67E93DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317661ED-CB34-4D1D-A728-F03A2D0FE2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317661ED-CB34-4D1D-A728-F03A2D0FE2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317661ED-CB34-4D1D-A728-F03A2D0FE2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317661ED-CB34-4D1D-A728-F03A2D0FE2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F01B0C07-B55F-434D-86B5-A3238F523CD4}
+	EndGlobalSection
+EndGlobal

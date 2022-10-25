@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Characters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Characters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Characters.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Characters/1.0.0": {
+      "type": "project",
+      "path": "../Characters/Characters.csproj",
+      "msbuildProject": "../Characters/Characters.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Characters >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\Warriors.csproj",
+      "projectName": "Warriors",
+      "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\Warriors.csproj",
+      "packagesPath": "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Stan Costin Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj": {
+              "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MortalKombat\\MortalKombat.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Arena\\Arena.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Arena\\Arena.csproj",
+        "projectName": "Arena",
+        "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Arena\\Arena.csproj",
+        "packagesPath": "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Arena\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stan Costin Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj": {
+                "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj"
+              },
+              "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Fighters\\Fighters.csproj": {
+                "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Fighters\\Fighters.csproj"
+              },
+              "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Mages\\Mages.csproj": {
+                "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Mages\\Mages.csproj"
+              },
+              "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\Warriors.csproj": {
+                "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\Warriors.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj",
+        "projectName": "Characters",
+        "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj",
+        "packagesPath": "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stan Costin Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Fighters\\Fighters.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Fighters\\Fighters.csproj",
+        "projectName": "Fighters",
+        "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Fighters\\Fighters.csproj",
+        "packagesPath": "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Fighters\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stan Costin Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj": {
+                "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Mages\\Mages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Mages\\Mages.csproj",
+        "projectName": "Mages",
+        "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Mages\\Mages.csproj",
+        "packagesPath": "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Mages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stan Costin Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj": {
+                "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MainMenu\\MainMenu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MainMenu\\MainMenu.csproj",
+        "projectName": "MainMenu",
+        "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MainMenu\\MainMenu.csproj",
+        "packagesPath": "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MainMenu\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stan Costin Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Arena\\Arena.csproj": {
+                "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Arena\\Arena.csproj"
+              },
+              "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Fighters\\Fighters.csproj": {
+                "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Fighters\\Fighters.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MortalKombat\\MortalKombat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MortalKombat\\MortalKombat.csproj",
+        "projectName": "MortalKombat",
+        "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MortalKombat\\MortalKombat.csproj",
+        "packagesPath": "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MortalKombat\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stan Costin Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MainMenu\\MainMenu.csproj": {
+                "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MainMenu\\MainMenu.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\Warriors.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\Warriors.csproj",
+        "projectName": "Warriors",
+        "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\Warriors.csproj",
+        "packagesPath": "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stan Costin Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj": {
+                "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

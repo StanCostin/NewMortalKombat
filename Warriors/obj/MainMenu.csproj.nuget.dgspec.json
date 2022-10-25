@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MainMenu\\MainMenu.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MainMenu\\MainMenu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MainMenu\\MainMenu.csproj",
+        "projectName": "Warriors",
+        "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\MainMenu\\MainMenu.csproj",
+        "packagesPath": "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stan Costin Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Characters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Characters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Characters.dll": {}
+        }
+      },
+      "Fighters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Characters": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fighters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fighters.dll": {}
+        }
+      },
+      "Mages/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Characters": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mages.dll": {}
+        }
+      },
+      "Warriors/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Characters": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Warriors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Warriors.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Characters/1.0.0": {
+      "type": "project",
+      "path": "../Characters/Characters.csproj",
+      "msbuildProject": "../Characters/Characters.csproj"
+    },
+    "Fighters/1.0.0": {
+      "type": "project",
+      "path": "../Fighters/Fighters.csproj",
+      "msbuildProject": "../Fighters/Fighters.csproj"
+    },
+    "Mages/1.0.0": {
+      "type": "project",
+      "path": "../Mages/Mages.csproj",
+      "msbuildProject": "../Mages/Mages.csproj"
+    },
+    "Warriors/1.0.0": {
+      "type": "project",
+      "path": "../Warriors/Warriors.csproj",
+      "msbuildProject": "../Warriors/Warriors.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Characters >= 1.0.0",
+      "Fighters >= 1.0.0",
+      "Mages >= 1.0.0",
+      "Warriors >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Arena\\Arena.csproj",
+      "projectName": "Arena",
+      "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Arena\\Arena.csproj",
+      "packagesPath": "C:\\Users\\Stan Costin Adrian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Arena\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Stan Costin Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj": {
+              "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Characters\\Characters.csproj"
+            },
+            "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Fighters\\Fighters.csproj": {
+              "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Fighters\\Fighters.csproj"
+            },
+            "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Mages\\Mages.csproj": {
+              "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Mages\\Mages.csproj"
+            },
+            "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\Warriors.csproj": {
+              "projectPath": "C:\\Users\\Stan Costin Adrian\\source\\repos\\MortalKombat\\Warriors\\Warriors.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

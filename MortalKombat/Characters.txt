@@ -1,0 +1,9 @@
+Scorpion F 115 130 50
+Reptile M 110 130 30
+Taunt W 111 140 30
+SubZero F 115 130 40
+Raiden M 110 130 50
+Orkman W 111 140 30
+LiuKang F 116 130 25
+Devorah M 113 130 40
+Nasus W 124 140 43
