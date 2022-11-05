@@ -8,96 +8,122 @@ namespace Arenas
     public class Arena
     {
         private List <Character> allCharacters;
-        public List <Character> usedCharacters { set; get; }
+
+        //proprietatile se scriu cu litera mare
+        public List <Character> UsedCharacters { set; get; }
 
         public Arena()
         {
             allCharacters = new List<Character>();
-            usedCharacters = new List<Character>();
+            UsedCharacters = new List<Character>();
         }
         
-        public void AppendCharacter(Character C)
+        //denumirea parametrilor trebuie sa fie sugestiva
+        //nu are nici un sens ca aceasta metoda sa fie publica
+        private void AppendCharacter(Character character)
         {
-            allCharacters.Add(C);
+            allCharacters.Add(character);
         }
         
-        public void Getall_charactersFromFile()
+        //_ nu are ce cauta in denumirea metodelor
+        public void GetallCharactersFromFile()
         {
             string workingDirectory = Environment.CurrentDirectory;
+            //GetParent(...).Parent.Parent n-o sa mearga in productie
             string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
             string fileName = projectDirectory + "\\Characters.txt";
-            string[] lines = System.IO.File.ReadAllLines(fileName);
-            string name; string attribute;
+            //citirea din fisier fara try...catch e sinucidere :)
+            string[] lines = File.ReadAllLines(fileName);
+            string name; 
+            string attribute;
             foreach (string line in lines)
             {
                 name = line.Split(" ")[0];
                 attribute = line.Split(" ")[1];
-                Character C = null;
+                Character character = null;
                 switch (attribute[0])
                 {
                     case 'F':
-                        C = new Fighter(name, 100, attribute[0], Int32.Parse(line.Split(" ")[2]), Int32.Parse(line.Split(" ")[3]), Int32.Parse(line.Split(" ")[4]));
+                        character = new Fighter(name, 100, attribute[0], Int32.Parse(line.Split(" ")[2]), Int32.Parse(line.Split(" ")[3]), Int32.Parse(line.Split(" ")[4]));
                         break;
                     case 'M':
-                        C = new Mage(name, 100, attribute[0], Int32.Parse(line.Split(" ")[2]), Int32.Parse(line.Split(" ")[3]), Int32.Parse(line.Split(" ")[4]));
+                        character = new Mage(name, 100, attribute[0], Int32.Parse(line.Split(" ")[2]), Int32.Parse(line.Split(" ")[3]), Int32.Parse(line.Split(" ")[4]));
                         break;
                     case 'W':
-                        C = new Warrior(name, 100, attribute[0], Int32.Parse(line.Split(" ")[2]), Int32.Parse(line.Split(" ")[3]), Int32.Parse(line.Split(" ")[4]));
+                        character = new Warrior(name, 100, attribute[0], Int32.Parse(line.Split(" ")[2]), Int32.Parse(line.Split(" ")[3]), Int32.Parse(line.Split(" ")[4]));
                         break;
                     default:
                         break;
                 }
-                AppendCharacter(C);
+                AppendCharacter(character);
             }
 
         }
 
-        public void Selectall_characters()
+        // metoda e publica fara rost
+        //denumirea nu respecta nici un standard
+        private void SelectAllCharacters()
         {
             Console.WriteLine("Jocul de mortal kombat incepe...Alegeti-va caracterele din urmatoarea lista:");
-            foreach (Character c in allCharacters)
+            // variabila c face codul greu de citit
+            foreach (Character character in allCharacters)
             {
-                switch (c.Atribute)
+                switch (character.Atribute)
                 {
                     case 'F':
-                        Console.WriteLine(c.Name + " FIGHTER");
+                        Console.WriteLine(character.Name + " FIGHTER");
                         break;
                     case 'M':
-                        Console.WriteLine(c.Name + " MAGE");
+                        Console.WriteLine(character.Name + " MAGE");
                         break;
                     case 'W':
-                        Console.WriteLine(c.Name + " WARRIOR");
+                        Console.WriteLine(character.Name + " WARRIOR");
                         break;
                     default:
                         break;
                 }
             }
+            //ch1? ch2?
             string? ch1, ch2;
             Console.WriteLine("Este randul jucatorului 1 sa aleaga caracterul din lista de mai sus:");
             ch1 = Console.ReadLine();
             Console.WriteLine("Este randul jucatorului 2 sa aleaga caracterul din lista de mai sus:");
             ch2 = Console.ReadLine();
 
+            // c?
             foreach (Character c in allCharacters)
             {
                 if (c.Name.Equals(ch1)|| c.Name.Equals(ch2))
-                    usedCharacters.Add(c);
+                    UsedCharacters.Add(c);
             }
-            if (usedCharacters.Count != 2)
-                throw new Exception("Nu s-au ales exact doua caractere valide!");
+            if (UsedCharacters.Count != 2)
+                throw new InvalidOperationException("Nu s-au ales exact doua caractere valide!");
          
         }
 
         public void InitializeBattle()
         {
-            Getall_charactersFromFile();
-            Selectall_characters();
+            GetallCharactersFromFile();
+            SelectAllCharacters();
         }
 
         public void FightNow (Character character1, Character character2)
         {
+            //character1 sau character2 ar putea fi null
+            if (character1 is null)
+            {
+                throw new ArgumentNullException(nameof(character1));
+            }
+            if (character2 is null)
+            {
+                throw new ArgumentNullException(nameof(character2));
+            }
+
+            //risc de infinite loop
             while (true)
             {
+                // ar fi fost mai intelept ca metoda GetAttackResult
+                // sa intoarca un bool si sa fie folosita in while
                 if (GetAttackResult(character1, character2) == "Game Over")
                 {
                     Console.WriteLine("Game Over");
@@ -125,13 +151,14 @@ namespace Arenas
             switch (character1.Atribute)
             {
                 case 'F':
-                    character2.specialPower();
+                    // nu inteleg de ce switch-ul e pe character1 si speciala e 
+                    // pe character2
+                    character2.SpecialPower();
                     break;     
                 case 'M':
-                    character1.specialPower();
-                    break;   
                 case 'W':
-                    character1.specialPower();
+                    //simplificam codul
+                    character1.SpecialPower();
                     break;
                 default:
                     break;
@@ -139,8 +166,8 @@ namespace Arenas
             }
 
             Console.WriteLine("{0} Ataca {1} si da {2} Damage",
-                character1.Name + " "+ character1.Atribute,
-                character2.Name + " "+character2.Atribute,
+                character1.Name + " " + character1.Atribute,
+                character2.Name + " " + character2.Atribute,
                 damageValue);
 
             Console.WriteLine("{0} are {1} HP\n",
@@ -155,7 +182,9 @@ namespace Arenas
 
                 return "Game Over";
             }
-            else return "Fight Again";
+            else 
+                //bool s-au enum sunt de preferat ca return in loc de string
+                return "Fight Again";
         }
     }
 }

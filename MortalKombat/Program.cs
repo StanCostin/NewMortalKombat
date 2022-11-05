@@ -6,10 +6,15 @@ namespace MortalKombat
     {
         static void Main(string[] args)
         {
+            // lipseste global exeption handler
+            // lipsesc unit testele
+            // e greu de determinat daca eroii sunt balansati
+            // implementarile functionalitatilor sunt minimaliste
+            // pe git ai pus tot...
             try
             {
                 IMenu menu = new Menu();
-                menu.startGame();
+                menu.StartGame();
             }
             catch (Exception e)
             {

@@ -1,5 +1,6 @@
 ﻿namespace Characters
 {
+    //un proiect pentru o singura clasa e putin cam mult..
     public class Character
     {
         public string Name { get; set; }
@@ -20,14 +21,15 @@
         public int Attack()
         {
             Random r = new Random();
-            return r.Next(1, (int)AttackMax);
+            return r.Next(1, AttackMax);
         }
         public int Block()
         {
             Random r = new Random();
-            return r.Next(1, (int)BlockMax);
+            return r.Next(1, BlockMax);
         }
 
-        public virtual void specialPower() { }
+        //metoda asta ar fi trebuit sa fie abstract
+        public virtual void SpecialPower() { }
     }
 }

@@ -4,15 +4,16 @@ namespace Mages
 {
     public class Mage : Character
     {   
-        int regenHealth { get; set; }
-        public Mage(string name, int health, char atribute, int attackMax, int blockMax, int power) : base(name, health, atribute, attackMax, blockMax)
+        int RegenHealth { get; set; }
+        public Mage(string name, int health, char atribute, int attackMax, int blockMax, int power) : 
+            base(name, health, atribute, attackMax, blockMax)
         {
-            regenHealth = power;
+            RegenHealth = power;
         }
 
-        public override void specialPower()
+        public override void SpecialPower()
         {
-            Health = Health + regenHealth;
+            Health = Health + RegenHealth;
         }
     }
 }
