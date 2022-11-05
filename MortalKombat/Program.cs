@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.Design;
-using MainMenu;
+﻿using MainMenu;
 
 namespace MortalKombat
 {

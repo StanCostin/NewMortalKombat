@@ -16,12 +16,12 @@ namespace Arenas
             usedCharacters = new List<Character>();
         }
         
-        public void appendCharacter(Character C)
+        public void AppendCharacter(Character C)
         {
             allCharacters.Add(C);
         }
         
-        public void getall_charactersFromFile()
+        public void Getall_charactersFromFile()
         {
             string workingDirectory = Environment.CurrentDirectory;
             string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.FullName;
@@ -47,12 +47,12 @@ namespace Arenas
                     default:
                         break;
                 }
-                appendCharacter(C);
+                AppendCharacter(C);
             }
 
         }
 
-        public void selectall_characters()
+        public void Selectall_characters()
         {
             Console.WriteLine("Jocul de mortal kombat incepe...Alegeti-va caracterele din urmatoarea lista:");
             foreach (Character c in allCharacters)
@@ -72,8 +72,10 @@ namespace Arenas
                         break;
                 }
             }
-            string ch1, ch2;
+            string? ch1, ch2;
+            Console.WriteLine("Este randul jucatorului 1 sa aleaga caracterul din lista de mai sus:");
             ch1 = Console.ReadLine();
+            Console.WriteLine("Este randul jucatorului 2 sa aleaga caracterul din lista de mai sus:");
             ch2 = Console.ReadLine();
 
             foreach (Character c in allCharacters)
@@ -86,13 +88,13 @@ namespace Arenas
          
         }
 
-        public void initializeBattle()
+        public void InitializeBattle()
         {
-            getall_charactersFromFile();
-            selectall_characters();
+            Getall_charactersFromFile();
+            Selectall_characters();
         }
 
-        public void fightNow (Character character1, Character character2)
+        public void FightNow (Character character1, Character character2)
         {
             while (true)
             {

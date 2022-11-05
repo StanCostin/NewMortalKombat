@@ -1,6 +1,4 @@
 ﻿using Arenas;
-using Characters;
-using Fighters;
 
 namespace MainMenu
 {
@@ -10,8 +8,8 @@ namespace MainMenu
         {
             Arena arena = new Arena();
 
-            arena.initializeBattle();
-            arena.fightNow(arena.usedCharacters[0], arena.usedCharacters[1]);
+            arena.InitializeBattle();
+            arena.FightNow(arena.usedCharacters[0], arena.usedCharacters[1]);
         }
     }
 }

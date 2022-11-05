@@ -1,0 +1,92 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MainMenu/1.0.0": {
+        "dependencies": {
+          "Arena": "1.0.0",
+          "Fighters": "1.0.0"
+        },
+        "runtime": {
+          "MainMenu.dll": {}
+        }
+      },
+      "Arena/1.0.0": {
+        "dependencies": {
+          "Characters": "1.0.0",
+          "Fighters": "1.0.0",
+          "Mages": "1.0.0",
+          "Warriors": "1.0.0"
+        },
+        "runtime": {
+          "Arena.dll": {}
+        }
+      },
+      "Characters/1.0.0": {
+        "runtime": {
+          "Characters.dll": {}
+        }
+      },
+      "Fighters/1.0.0": {
+        "dependencies": {
+          "Characters": "1.0.0"
+        },
+        "runtime": {
+          "Fighters.dll": {}
+        }
+      },
+      "Mages/1.0.0": {
+        "dependencies": {
+          "Characters": "1.0.0"
+        },
+        "runtime": {
+          "Mages.dll": {}
+        }
+      },
+      "Warriors/1.0.0": {
+        "dependencies": {
+          "Characters": "1.0.0"
+        },
+        "runtime": {
+          "Warriors.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MainMenu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Arena/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Characters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fighters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Warriors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

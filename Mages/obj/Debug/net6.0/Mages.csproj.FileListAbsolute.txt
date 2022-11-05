@@ -1,0 +1,15 @@
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\bin\Debug\net6.0\Mages.deps.json
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\bin\Debug\net6.0\Mages.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\bin\Debug\net6.0\Mages.pdb
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\bin\Debug\net6.0\Characters.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\bin\Debug\net6.0\Characters.pdb
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\obj\Debug\net6.0\Mages.csproj.AssemblyReference.cache
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\obj\Debug\net6.0\Mages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\obj\Debug\net6.0\Mages.AssemblyInfoInputs.cache
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\obj\Debug\net6.0\Mages.AssemblyInfo.cs
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\obj\Debug\net6.0\Mages.csproj.CoreCompileInputs.cache
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\obj\Debug\net6.0\Mages.csproj.CopyComplete
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\obj\Debug\net6.0\Mages.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\obj\Debug\net6.0\refint\Mages.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\obj\Debug\net6.0\Mages.pdb
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Mages\obj\Debug\net6.0\ref\Mages.dll

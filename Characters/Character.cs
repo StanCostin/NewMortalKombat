@@ -8,13 +8,13 @@
         public int AttackMax { get; set; }
         public int BlockMax { get; set; }
 
-        public Character(string name, int health, char atribute, int atckMax, int blckMax)
+        public Character(string name, int health, char atribute, int attackMax, int blockMax)
         {
             Name = name;
             Health = health;
             Atribute = atribute;
-            AttackMax = atckMax;
-            BlockMax = blckMax;
+            AttackMax = attackMax;
+            BlockMax = blockMax;
         }
 
         public int Attack()

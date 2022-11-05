@@ -1,0 +1,15 @@
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\bin\Debug\net6.0\Warriors.deps.json
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\bin\Debug\net6.0\Warriors.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\bin\Debug\net6.0\Warriors.pdb
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\bin\Debug\net6.0\Characters.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\bin\Debug\net6.0\Characters.pdb
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\obj\Debug\net6.0\Warriors.csproj.AssemblyReference.cache
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\obj\Debug\net6.0\Warriors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\obj\Debug\net6.0\Warriors.AssemblyInfoInputs.cache
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\obj\Debug\net6.0\Warriors.AssemblyInfo.cs
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\obj\Debug\net6.0\Warriors.csproj.CoreCompileInputs.cache
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\obj\Debug\net6.0\Warriors.csproj.CopyComplete
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\obj\Debug\net6.0\Warriors.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\obj\Debug\net6.0\refint\Warriors.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\obj\Debug\net6.0\Warriors.pdb
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Warriors\obj\Debug\net6.0\ref\Warriors.dll

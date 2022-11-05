@@ -1,0 +1,12 @@
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\bin\Debug\net6.0\Characters.deps.json
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\bin\Debug\net6.0\Characters.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\bin\Debug\net6.0\Characters.pdb
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\obj\Debug\net6.0\Characters.csproj.AssemblyReference.cache
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\obj\Debug\net6.0\Characters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\obj\Debug\net6.0\Characters.AssemblyInfoInputs.cache
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\obj\Debug\net6.0\Characters.AssemblyInfo.cs
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\obj\Debug\net6.0\Characters.csproj.CoreCompileInputs.cache
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\obj\Debug\net6.0\Characters.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\obj\Debug\net6.0\refint\Characters.dll
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\obj\Debug\net6.0\Characters.pdb
+C:\Users\Stan Costin Adrian\source\repos\MortalKombat\Characters\obj\Debug\net6.0\ref\Characters.dll
